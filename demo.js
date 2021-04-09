@@ -8,9 +8,9 @@ var http=require('http')
 // res.write(JSON.stringify(jsondata))
 // res.end()
 //}).listen(1001)
-
+var uc=require('upper-case')
 http.createServer((req,res)=>{
-    res.writeHead(200,{'Content-Type':'text/html'})
-    res.write("<input type='text' placeholder='Hello world!'/>")
+    //res.writeHead(200,{'Content-Type':'text/html'})
+    res.write(uc.upperCase("Hello world"))
     res.end()
 }).listen(4000)
