@@ -1,4 +1,14 @@
 var http=require('http')
-http.createServer((req,res)=>{
-res.write('hello from node-js')
-}).listen(5000)
+// const jsondata=[
+//     {name:"Talha",class:"BSSE",seatNo:"B17158051"},
+//     {name:"AR",class:"BSSE",seatNo:"B17158001"}
+// ]
+// http.createServer((req,res)=>{
+// res.writeHead(200,{'Content-Type':'application\json'})
+// res.write(JSON.stringify(jsondata))
+// res.end()
+//}).listen(1001)
+
+http.createServer((req,res){
+    res.write("Hello world!")
+}).listen(4000)
