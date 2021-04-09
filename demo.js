@@ -10,5 +10,7 @@ var http=require('http')
 //}).listen(1001)
 
 http.createServer((req,res)=>{
-    res.write("Hello world!")
+    res.writeHead(200,{'Content-Type':'text/html'})
+    res.write("<input type='text' placeholder='Hello world!'/>")
+    res.end()
 }).listen(4000)
