@@ -1,3 +1,5 @@
+//npm i nodemailer
+
 var nm=require('nodemailer')
 var transport =nm.createTransport({
     host:'smtp.gmail.com'
