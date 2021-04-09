@@ -1,10 +1,10 @@
 const exp=require('express')
 const app=exp()
 app.set('view engine','ejs')
-app.get("/",(req,res)=>{
+//app.get("/",(req,res)=>{
     //res.sendFile(__dirname+"/htmlfiles/home.html")
-    res.render('profile')
-})
+  //  res.render('profile')
+//})
 app.get("/profile/:name",(req,res)=>{
     data={
         email:'test@test.com',
@@ -21,6 +21,9 @@ app.get("/",(req,res)=>{
     // }
     //res.render('profile',{name:req.params.name,info:data})
     res.render('home')
+})
+app.get("/about",(rq,rs)=>{
+    rs.render('About')
 })
 
 app.listen(4000)
