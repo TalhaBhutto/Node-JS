@@ -1,10 +1,7 @@
 const exp=require('express');
 const app=exp()
 const router=exp.Router()
-const checkUrl=(req,res,next)=>{
-    console.warn('current route is',req.originalUrl)
-    next();
-}
+const checkUrl=require('./middlewareFunction')
 //app.use(checkUrl)
 app.get('/',(req,res)=>{
     res.send("Hello Express JS")
