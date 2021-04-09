@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/TalhaBhutto/Node-JS#readme",
   "dependencies": {
+    "express": "^4.17.1",
     "node-mailer": "^0.1.1",
     "nodemailer": "^6.5.0",
     "upper-case": "^2.0.2"
