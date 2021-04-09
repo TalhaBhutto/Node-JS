@@ -7,5 +7,13 @@
 </head>
 <body>
     <h1>Profile of <%= name%></h1>
+    <h3>Email : <%data.email%></h3>
+    <h3>City : <%data.address%></h3>
+    <ol>
+        Email : <%data.skills.foreach((item)=>{%>
+            <li><%=item%></li>
+        <%})%>
+    </ol>
+
 </body>
 </html>
