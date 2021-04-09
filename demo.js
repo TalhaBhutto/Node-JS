@@ -9,6 +9,6 @@ var http=require('http')
 // res.end()
 //}).listen(1001)
 
-http.createServer((req,res){
+http.createServer((req,res)=>{
     res.write("Hello world!")
 }).listen(4000)
