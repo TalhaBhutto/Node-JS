@@ -1,4 +1,4 @@
-var nm=require('node-mailer')
+var nm=require('nodemailer')
 var transport =nm.createTransport({
     host:'smtp.gmail.com'
     ,port:'587'
