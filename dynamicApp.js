@@ -1,6 +1,12 @@
 const exp=require('express')
 const app=exp()
 app.set('view engine','ejs')
+
+
+app.get("/",(req,res)=>{
+    res.render('home')
+})
+
 app.get("/profile/:name",(req,res)=>{
     data={
         email:'test@test.com',
@@ -9,9 +15,8 @@ app.get("/profile/:name",(req,res)=>{
     }
     res.render('profile',{name:req.params.name,info:data})
 })
-app.get("/",(req,res)=>{
-    res.render('home')
-})
+
+
 app.get("/about",(rq,rs)=>{
     rs.render('About')
 })
