@@ -1,8 +1,9 @@
 const exp=require('express')
 const app=exp()
-app.set('view engine','ejs')
 
-app.use('/assets',exp.static('assets'))
+app.use('/Assets',exp.static('Assets'))
+
+app.set('view engine','ejs')
 
 app.get("/",(req,res)=>{
     res.render('home')
