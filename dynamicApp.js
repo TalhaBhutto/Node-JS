@@ -24,7 +24,7 @@ app.get("/about",(rq,rs)=>{
 })
 
 app.get("/login",(req,res)=>{
-    res.render('login')
+    res.render('Login')
 })
 
 app.listen(4000)
