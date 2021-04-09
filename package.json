@@ -1,0 +1,23 @@
+{
+  "name": "Node-JS",
+  "version": "1.0.0",
+  "description": "Learning node js",
+  "main": "demo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TalhaBhutto/Node-JS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TalhaBhutto/Node-JS/issues"
+  },
+  "homepage": "https://github.com/TalhaBhutto/Node-JS#readme",
+  "dependencies": {
+    "upper-case": "^2.0.2"
+  }
+}
