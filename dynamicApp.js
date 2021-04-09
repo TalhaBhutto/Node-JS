@@ -2,6 +2,7 @@ const exp=require('express')
 const app=exp()
 app.set('view engine','ejs')
 
+app.use('/assets',exp.static('assets'))
 
 app.get("/",(req,res)=>{
     res.render('home')
