@@ -19,6 +19,7 @@
   "homepage": "https://github.com/TalhaBhutto/Node-JS#readme",
   "dependencies": {
     "node-mailer": "^0.1.1",
+    "nodemailer": "^6.5.0",
     "upper-case": "^2.0.2"
   }
 }
