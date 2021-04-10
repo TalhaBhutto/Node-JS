@@ -1,1 +1,3 @@
 talha : lYDxLcpsmAs2gC0Y
+
+mongodb+srv://Talha:lYDxLcpsmAs2gC0Y@cluster0.gmnqm.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
