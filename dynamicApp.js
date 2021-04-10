@@ -30,6 +30,9 @@ app.set('view engine','ejs');
 //created 4 routes
 app.get("/",(req,res)=>{
     res.render('home');
+    // user.find().then(data=>{
+    //     console.warn(res.json(data));
+    // })
 });
 
 app.get("/profile/:name",(req,res)=>{
